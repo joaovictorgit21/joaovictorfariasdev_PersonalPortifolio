@@ -10,7 +10,7 @@ function Home() {
       <h1>Email</h1>
       <input type="email" placeholder="Email"/>
       <br /><br />
-      <Button target="_self" link="/agradecimento"></Button>
+      <Button type="submit" target="_self" link="/agradecimento"></Button>
     </>
   )
 }
