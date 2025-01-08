@@ -5,7 +5,7 @@ import Button from "../components/Button";
 function Home() {
   return (
     <>
-    <form id="estudos" action="">
+    <form type="submit" id="estudos" action="">
       <h1>Nome</h1>
       <input type="text" placeholder="Nome"/>
       <h1>Email</h1>
