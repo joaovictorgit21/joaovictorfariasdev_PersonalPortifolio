@@ -1,9 +1,7 @@
-
-
 const Button = (props) => {
     return (
-        <a target={props.target} href={props.link}>Enviar</a>
+        <a target={props.target} href={props.link}>Enviar inscrição</a>
       );
     }
     
-    export default Button;
+export default Button;
