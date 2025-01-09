@@ -3,6 +3,8 @@ import React from "react";
 
 import RoutesApp from "./routes/routes";
 
-const app = () => <RoutesApp />
+const app = () => {
+    <RoutesApp />
+}
 
 export default app;
