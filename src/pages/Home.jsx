@@ -1,5 +1,6 @@
 // pages/Home.js
 import React from "react";
+
 import Button from "../components/Button";
 
 function Home() {
