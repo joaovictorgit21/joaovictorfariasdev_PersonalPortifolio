@@ -5,4 +5,4 @@ import RoutesApp from "./routes/routes";
 
 const app = () => <RoutesApp />
 
-export default App;
+export default app;
