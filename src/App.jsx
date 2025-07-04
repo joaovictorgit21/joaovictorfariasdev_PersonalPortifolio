@@ -1,8 +1,12 @@
-// App.js
 import React from "react";
-
 import RoutesApp from "./routes/routes.jsx";
 
-const App = () => <RoutesApp />
+const App = () => {
+  return (
+    <>
+      <RoutesApp />
+    </>
+  );
+};
 
 export default App;

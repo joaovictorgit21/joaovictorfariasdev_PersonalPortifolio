@@ -1,21 +1,27 @@
 // pages/Home.js
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-import Button from "../components/Button";
+const Home = () => {
+  const navigate = useNavigate();
 
-function Home() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    navigate("/agradecimento");
+  };
+
   return (
     <>
-    <form type="submit" id="estudos" action="">
-      <h1>Nome</h1>
-      <input type="text" placeholder="Nome"/>
-      <h1>Email</h1>
-      <input type="email" placeholder="Email"/>
-      <br /><br />
-      <Button type="submit" target="_self" link="/agradecimento"></Button>
+      <form onSubmit={handleSubmit}>
+        <h1>Nome</h1>
+        <input type="text" placeholder="Nome" />
+        <h1>Email</h1>
+        <input type="email" placeholder="Email" />
+        <br /><br />
+        <button type="submit">Enviar</button>
       </form>
     </>
-  )
-}
+  );
+};
 
 export default Home;

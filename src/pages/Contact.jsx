@@ -1,7 +1,7 @@
 // pages/About.js
 import React from "react";
 
-function Contact() {
+const Contact = () => {
   return <h1>Contact Page</h1>;
 }
 
